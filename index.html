@@ -1,1 +1,105 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/img/logo.ico">
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about_me">About me</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <div class="section-profile-title">
+            <h1 class = "main-title">Andrew Trohin</h1>
+            <h3>Junior Front-end developer</h3>
+          </div>
+          <img class="section-profile-avatar" src="./images/img/avatar.jpg" alt="avatar">
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list contacts-list">
+            <li class="section-item">Location: Krasnodar, Russia</li>
+            <li class="section-item">Email: AndrewTrohin@yandex.ru</li>
+            <li class="section-item">Telegram: @AndrewT</li>
+            <li class="section-item">Discord: andrew_t (@AndrewTrohin)</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list skills-list">
+            <li class="section-item">C++</li>
+            <li class="section-item">Python</li>
+            <li class="section-item">MS SQL Server</li>
+            <li class="section-item">SVN</li>
+            <li class="section-item">Fast Report</li>
+          </ul>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="section-list courses-list">
+            <li class="section-item"><a href="https://stepik.org/users/16361560">Stepic</a></li>
+            <li class="section-item"><a href="https://rs.school/js-stage0/">RS Schools Course «JavaScript/Front-end. Stage 0»</a></li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Kuban State University</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list languages-list">
+            <li class="section-item">Russian - native</li>
+            <li class="section-item">English - B1 (Pre-Intermediate)</li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list projects-list">
+            <li class="section-item"><a href="https://github.com/AndrewTrohin/rsschool-cv">CV</a></li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            <code>def compress(items: list) -> Iterable:
+                from itertools import groupby
+                return [i[0]  for i in groupby(items)]</code>
+          </pre> 
+        </section>
+        <section class="section" id="about_me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I have experience in creating applications in C++ and MS SQL Server. 
+            At the moment I would like to become a web developer. 
+            I am fascinated by well-structured code.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="https://github.com/AndrewTrohin" class="github footer-link">AndrewTrohin</a>
+        <div>© 2022</div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
